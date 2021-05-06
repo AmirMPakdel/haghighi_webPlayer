@@ -1,0 +1,67 @@
+.con{
+    display: flex;
+    flex-direction: column;
+    height: 16rem;
+    width: 20rem;
+    background-color: rgb(75, 75, 75);
+    margin: 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: ease 200ms;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0rem 0.5rem 0.8rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.con:hover{
+    transform: scale(1.05);
+}
+
+.title{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.86rem;
+    padding: 1rem;
+    color: white;
+    background-color: #654685;
+}
+
+.img{
+    width: 100%;
+    height: 12rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hov_con{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play{
+    opacity: 0.78;
+    height: 30%;
+    animation-name: play_anim;
+    transition: ease 200ms;
+    animation-duration: 600ms;
+    transform: scale(1.5);
+}
+
+@keyframes play_anim{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}

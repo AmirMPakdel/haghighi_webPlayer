@@ -1,0 +1,90 @@
+.eng_num{
+	font-family: IranSansEng;
+	direction: ltr;
+}
+
+.amp_btn{
+	transition: transform 100ms;
+	cursor: pointer;
+	user-select: none;
+}
+.amp_btn:active{
+	transform: scale(0.9);
+}
+
+.recharts-cartesian-axis-tick text{
+	direction: ltr;
+}
+
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}
+
+@font-face{
+	font-family: IranSansEng;
+	font-style: normal;
+	font-weight: 400;
+	src: url(../assets/fonts/IRANSansWeb.woff2);
+}
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 400;
+	src: url("../assets/fonts/IRANSansWeb\(FaNum\).woff") format("woff");
+}
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url("../assets/fonts/IRANSansWeb\(FaNum\)_Medium.woff") format("woff");
+}
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 700;
+	src: url("../assets/fonts/IRANSansWeb\(FaNum\)_Bold.woff") format("woff");
+}
+
+*{
+	position: relative;
+    font-family: IranSans;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #__next{
+    height: 100%;
+    width: 100%;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+.ReactCollapse--collapse {
+    transition: height 500ms;
+}
+
+textarea{
+	outline: none;
+	resize: none;
+	border: none;
+}

@@ -1,0 +1,15 @@
+.con{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+}
+
+.iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.number{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

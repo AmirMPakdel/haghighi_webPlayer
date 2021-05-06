@@ -1,0 +1,14 @@
+.con{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img{
+    height: 8rem;
+    max-width: 80%;
+    margin-bottom: 1rem;
+}
